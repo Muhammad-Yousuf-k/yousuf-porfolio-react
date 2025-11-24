@@ -1,20 +1,29 @@
-import React from 'react'
+import React from 'react';
+// components files
 import Navbar from './component/navbar'
-import HeroSection from './component/heroSection'
-import AboutSection from './component/aboutSection'
+import HeroSection from './component/heroSec/heroSection'
+import AboutSection from './component/aboutSec/aboutSection'
 import ServiceSection from './component/serviceSection'
+import ShowCaseSection from './component/showCaseSec/showCaseSection'
+// logic files
+
+
+
 
 const App = () => {
+
+
   return (
     <>
-      <Navbar />
-      <main className='overflow-hidden'>
-      <HeroSection />
-      <AboutSection />
-      <ServiceSection />
+      <main className="overflow-x-hidden">
+        <Navbar />
+        <HeroSection />
+        <AboutSection />
+        <ServiceSection />
+        <ShowCaseSection />
       </main>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
