@@ -10,7 +10,7 @@ const aboutLeft = () => {
             </div>
             <p className='about-FadeIn-l'>Hello, I'm Muhammad Yousuf Khan, a passionate web developer and designer dedicated to transforming ideas into intuitive, visually stunning digital experiences. I specialize in both front-end and back-end development, creating responsive websites that not only look great but perform flawlessly. I thrive at the intersection of design and technology, delivering solutions that are creative, efficient, and impactful.</p>
             <div className='flex gap-8 about-FadeIn-l'>
-                <button className='active:scale-95 bg-[var(--secondary)] hover:bg-[var(--primary)] text-white text-1xl px-6 py-3 rounded cursor-pointer'>View Portfolio</button>
+                <button className='active:scale-95 bg-[var(--secondary)] hover:bg-[var(--primary)] text-[var(--light)] text-1xl px-6 py-3 rounded cursor-pointer'>View Portfolio</button>
                 <button className='active:scale-95 font-bold hover:text-[var(--secondary)] cursor-pointer'>Contact Me <i className="fa-solid fa-arrow-right-long"></i></button>
             </div>
 

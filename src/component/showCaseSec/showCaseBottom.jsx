@@ -12,7 +12,7 @@ const showCaseBottom = () => {
                     {/* card */}
                     {Card.projData.map((e, idx) => {
 
-                        return <div className="showCase-FadeIn-Up w-90 h-100 rounded-4xl border-gray-500 border  " key={idx}>
+                        return <div className="showCase-FadeIn-Up w-90 h-100 rounded-4xl border-gray-500 border bg-white shadow-2xl  " key={idx}>
                             {/* card top */}
 
                             <div className='w-full h-[40%] rounded-4xl'>

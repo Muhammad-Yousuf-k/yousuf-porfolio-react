@@ -11,7 +11,7 @@ const heroLeft = () => {
             </div>
             <p className=' Hero-FadeIn-l heroPara'>I am a passionate Full Stack Developer dedicated to building efficient and scalable web applications. I enjoy solving complex problems and turning ideas into functional, user-friendly solutions.</p>
             <div className=' Hero-FadeIn-l flex gap-8 heroBtnBox'>
-                <button className=' active:scale-95 bg-[var(--secondary)] hover:bg-[var(--primary)] text-white text-1xl px-6 py-3 rounded cursor-pointer'>Learn More</button>
+                <button className=' active:scale-95 bg-[var(--secondary)] hover:bg-[var(--primary)] text-[var(--light)] text-1xl px-6 py-3 rounded cursor-pointer'>Learn More</button>
                 <button className=' active:scale-95 font-bold hover:text-[var(--secondary)] cursor-pointer'>See Our Work <i className="fa-solid fa-arrow-right-long"></i></button>
             </div>
 

@@ -5,6 +5,7 @@ import HeroSection from './component/heroSec/heroSection'
 import AboutSection from './component/aboutSec/aboutSection'
 import ServiceSection from './component/serviceSection'
 import ShowCaseSection from './component/showCaseSec/showCaseSection'
+import Footer from './component/footer';
 // logic files
 
 
@@ -21,6 +22,7 @@ const App = () => {
         <AboutSection />
         <ServiceSection />
         <ShowCaseSection />
+        <Footer />
       </main>
     </>
   );

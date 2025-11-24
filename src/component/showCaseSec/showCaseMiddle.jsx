@@ -14,7 +14,7 @@ const showCaseMiddle = () => {
 
                 }
 
-            }} className="showCase-FadeIn-Ap text-xl px-2 sm:text-2xl cursor-pointer active:scale-95 text-nowrap h-[50%] rounded w-1/4 flex items-center justify-center bg-[var(--secondary)] hover:bg-[var(--primary)] text-white">Project</div>
+            }} className="showCase-FadeIn-Ap text-xl px-2 sm:text-2xl cursor-pointer active:scale-95 text-nowrap h-[50%] rounded w-1/4 flex items-center justify-center bg-[var(--secondary)] hover:bg-[var(--primary)] text-[var(--light)]">Project</div>
             <div onClick={() => {
                 let proj = document.getElementById("proj")
                 let certificate = document.getElementById("certificate")
@@ -26,7 +26,7 @@ const showCaseMiddle = () => {
 
                 }
 
-            }} className="showCase-FadeIn-Ap text-xl px-2 sm:text-2xl cursor-pointer active:scale-95 text-nowrap h-[50%] rounded w-1/4 flex items-center justify-center bg-[var(--secondary)] hover:bg-[var(--primary)] text-white">Certificate</div>
+            }} className="showCase-FadeIn-Ap text-xl px-2 sm:text-2xl cursor-pointer active:scale-95 text-nowrap h-[50%] rounded w-1/4 flex items-center justify-center bg-[var(--secondary)] hover:bg-[var(--primary)] text-[var(--light)]">Certificate</div>
             <div onClick={() => {
                 let proj = document.getElementById("proj")
                 let certificate = document.getElementById("certificate")
@@ -38,7 +38,7 @@ const showCaseMiddle = () => {
 
                 }
 
-            }} className="showCase-FadeIn-Ap text-xl px-2 sm:text-2xl cursor-pointer active:scale-95 text-nowrap h-[50%] rounded w-1/4 flex items-center justify-center bg-[var(--secondary)] hover:bg-[var(--primary)] text-white">Tech Stack</div>
+            }} className="showCase-FadeIn-Ap text-xl px-2 sm:text-2xl cursor-pointer active:scale-95 text-nowrap h-[50%] rounded w-1/4 flex items-center justify-center bg-[var(--secondary)] hover:bg-[var(--primary)] text-[var(--light)]">Tech Stack</div>
         </div>
     )
 }
